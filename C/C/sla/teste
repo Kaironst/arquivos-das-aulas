@@ -1,0 +1,10 @@
+
+typedef struct {
+    char* toilet;
+    int type;
+    int model
+}skibidi;
+
+int main(skibidi rizz) { 
+
+}
