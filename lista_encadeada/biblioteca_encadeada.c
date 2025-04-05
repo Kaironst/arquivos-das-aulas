@@ -57,6 +57,7 @@ int devolverLivro(Biblioteca* b, char* isbn) {
     if (aux==NULL) return 0;
     aux->livro.status=DISPONIVEL;
     strcpy(aux->livro.usuario, "\0");
+    strcpy(aux->livro.dataEmprestimo, "\0");
     return 1;
 
     // Percorrer lista e alterar status
